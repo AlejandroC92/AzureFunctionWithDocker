@@ -1,0 +1,1 @@
+Some images listed in this folder were extracted from this course on Pluralsight: https://app.pluralsight.com/library/courses/docker-containers-big-picture/table-of-contents
