@@ -23,7 +23,7 @@ Why Virtual Machines on top of the servers? Because we can have multiple environ
 
 <img src="/img/VirtualMachine.png" alt="drawing" width="520"/>
 
-Now, the problem with that is not the functionality but the implementation. Having one virtual machine involve a lot of things; operative system for each one of them (and their licenses of course), "virtual hardware" configuration, resources management and a lot of time for administration teams. Now multiply that for the amount of virtual machines that you want.
+Now, the problem with that is not the functionality but the implementation. Having one virtual machine involve a lot of things; operative system for each one of them (and their licenses of course), "virtual hardware" configuration, resources management and a lot of time for administration teams. Now multiply that by the amount of virtual machines that you want.
 
 With Containers we can eliminate these inconveniences. We have one smaller unit with much more less configuration and we just need one OS for all of them. They are also much more quicker to configure and start.
 
