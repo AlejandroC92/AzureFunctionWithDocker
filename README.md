@@ -15,7 +15,7 @@ They are started off by [triggers](https://docs.microsoft.com/en-us/azure/azure-
 What this mean for you is, you can focus your effort on developing your application without worring about the infraestructure behind.
 To use Azure Function with Docker you need to download Azure Function Core Tool from [this link](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local) (I hightly recommend you npm for this task).
 
-Azure Function allow you to implement a Serverless Architecture, you can find out more about this topic in [Azure webpage](https://azure.microsoft.com/en-us/services/functions/).
+Azure Function allow you to implement a Serverless Architecture, you can find out more about this topic in [Azure webpage](https://azure.microsoft.com/en-us/solutions/serverless/).
 
 ## Now Docker, but before that, let's talk a little bit about history.
 Before Containers, we had Virtual Machines, and before that, well, just Servers.
@@ -37,3 +37,28 @@ Docker is one implementation of a Container, the way VMWare is one implementatio
 With Docker we can have all we need for our application to run. 
 
 You can download the installer after registration from this link for your operative system, follow the wizard steps and check if everything went right by typing "docker version" in the console.
+
+<img src="/img/DockerVersion.png" alt="cmd" width="320"/>
+
+## Putting all together
+Now that we have the basic understanding of both technologies, let's build our HelloWorld application with Azure Function hosted in a Docker Container.
+
+To do so, create a folder called Docker and enter there from the console.
+Now, type the next command
+
+```
+funct init . --docker
+```
+
+Now select the worker runtime, in our case this would be dotnet and press enter.
+
+Basically what we did was setting up the configuration for the container.
+
+Now we can type the next command to create our function and choose a template, in our case the HttpTrigger
+
+```
+funct new
+```
+
+
+
