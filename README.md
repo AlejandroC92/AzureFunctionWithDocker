@@ -1,5 +1,4 @@
 # Azure Function With Docker
-Azure Function with Docker
 
 This article will focus on the basic understanding of Docker and Azure Functions, and how we can combine both to have an application deployed and ready to use in just a few minutes.
 
