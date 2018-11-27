@@ -33,6 +33,7 @@ With Containers we can eliminate these inconveniences. We have one smaller unit 
 <img src="https://www.docker.com/sites/default/files/vertical.png" alt="docker" width="180"/>
 
 Docker is one implementation of a Container, the way VMWare is one implementation of Virtual Machines.
+
 With Docker we can have all we need to run our application. 
 
 You can download the installer after registration from [this link](https://store.docker.com/editions/community/docker-ce-desktop-windows) for Windows, follow the wizard steps and check if everything went right by typing "docker version" in the console.
