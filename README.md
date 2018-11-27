@@ -63,6 +63,8 @@ funct new
 ```
 <img src="/img/CmdFuncName.png" alt="drawing" width="520"/>
 
+Inside HelloWorld.cs change AuthorizationLevel.Function for AuthorizationLevel.Anonymous.
+
 And the last two steps we need to have our function up and running into a Docker Container is to build the container and run it.
 ```
 docker build -t helloworldimage .
