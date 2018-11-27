@@ -51,6 +51,7 @@ funct init . --docker
 ```
 
 Now select the worker runtime, in our case this would be dotnet and press enter.
+
 <img src="/img/WorkerRuntime.png" alt="drawing" width="320"/>
 
 Basically what we did was setting up the configuration for the container.
