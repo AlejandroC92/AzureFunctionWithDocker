@@ -23,9 +23,11 @@ Why Virtual Machines on top of the servers? Because we can have multiple environ
 
 <img src="/img/VirtualMachine.png" alt="drawing" width="520"/>
 
-Now, the problem with that is not the functionality but the implementation. Having one virtual machine involve a lot of things; operative system for each one of them (and their licenses of course), "virtual hardware" configuration, resources management and a lot of time for administration teams. Now multiply that by the amount of virtual machines that you want.
+Now, the problem with that is not the functionality but the implementation. Having one virtual machine involve a lot of things, operative system for each one of them (and their licenses of course), "virtual hardware" configuration, resources management and a lot of time for administration teams. Now multiply that by the amount of virtual machines that you want.
 
 With Containers we can eliminate these inconveniences. We have one smaller unit with much more less configuration and we just need one OS for all of them. They are also much more quicker to configure and start.
+
+They packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
 
 <img src="/img/Container.png" alt="drawing" width="520"/>
 
@@ -33,6 +35,9 @@ With Containers we can eliminate these inconveniences. We have one smaller unit 
 <img src="https://www.docker.com/sites/default/files/vertical.png" alt="docker" width="180"/>
 
 Docker is one implementation of a Container, the way VMWare is one implementation of Virtual Machines.
+
+In words of Docker Inc.
+> A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings
 
 With Docker we can have all we need to run our application. 
 
