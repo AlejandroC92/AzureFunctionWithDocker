@@ -1,6 +1,6 @@
 # Azure Function With Docker
 
-This article will focus on the basic understanding of Docker and Azure Functions, and how we can combine both to have an application deployed and ready to use in just a few minutes.
+This article will focus on the basic understanding of Docker and Azure Functions, and how we can combine both to have an application deployed and ready to be used in just a few minutes.
 
 At the end of this reading, you would have a better understanding of Docker as a Container and Azure Function, and you should be able to follow along with the steps on how to install them in your local machine.
 
