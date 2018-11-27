@@ -7,7 +7,7 @@ At the end of this reading, you would have a better understanding of Docker as a
 ## Azure Functions
 ![Azure Function](https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/azure-functions-thumbnail.png)
 
-Azure Function is Microsoft implementation of the concept Function as a service. It support C#, Javascript, F#, Python, and some more are beeing added.
+Azure Function is Microsoft implementation of the concept Function as a service. It supports C#, Javascript, F#, Python, and some more are beeing added.
 
 They are started off by [triggers](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings), and you can have several types of triggers such as Timers, Messages, Http Requests, Blobs, or Database Triggers.
 
