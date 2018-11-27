@@ -51,6 +51,7 @@ funct init . --docker
 ```
 
 Now select the worker runtime, in our case this would be dotnet and press enter.
+<img src="/img/WorkerRuntime.png" alt="drawing" width="320"/>
 
 Basically what we did was setting up the configuration for the container.
 
@@ -59,6 +60,30 @@ Now we can type the next command to create our function and choose a template, i
 ```
 funct new
 ```
+<img src="/img/CmdFuncName.png" alt="drawing" width="320"/>
+
+And the 2 last steps that we need to have our function up and running into a Docker Container is to build the container and run it.
+```
+docker build -t helloworldimage .
+```
+
+```
+docker run -p 8080:80 helloworldimage
+```
 
 
+This second command would map the container port 80 to our localhost port 8080
 
+Now you can enter http://localhost:8080/api/HelloWorld?name=ale 
+and we finish our first application !
+
+## Where to start and what's next
+For more information you can visit the next links and also check Pluralsight where you can find tons of courses about this topic.
+- https://docs.microsoft.com/en-us/azure/azure-functions/
+- https://training.play-with-docker.com/
+- https://runnable.com/docker/advanced-docker-compose-configuration
+
+
+Also, I have to mention some of the sources wich help me put this article together
+- https://blog.leitwolf.io/azure-functions-docker-getting-started/
+- https://markheath.net/post/azure-functions-docker
